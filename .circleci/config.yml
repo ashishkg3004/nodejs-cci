@@ -7,7 +7,7 @@ orbs: # declare what orbs we are going to use
 jobs:
   install-node-example:
     docker:
-      - image: 'hub.docker.com/cimg/base:stable'
+      - image: 'registry.hub.docker.com/cimg/base:stable'
     steps:
       - checkout
       - node/install:
