@@ -12,7 +12,7 @@ jobs:
       - checkout
       - node/install:
           install-yarn: true
-          node-version: '16.3'
+          node-version: '16.3.0'
       - run: node --version 
  
 workflows:
